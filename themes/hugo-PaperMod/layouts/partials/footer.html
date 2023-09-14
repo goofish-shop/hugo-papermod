@@ -1,15 +1,18 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
     {{- if site.Copyright }}
-    <span>{{ site.Copyright | markdownify }}</span>
+    <div>{{ site.Copyright | markdownify }}</div>
     {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+    <div>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></div>
     {{- end }}
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+    <div>
+      <div>本站运行已经运行了1天</div>
+      <div> 这是一个自己的描述</div>
+      <div>
+        <img alt="Static Badge" src="https://img.shields.io/badge/ahKevinXyt-10000-blue">
+
+      </div>>
+    </div>
 </footer>
 {{- end }}
 
