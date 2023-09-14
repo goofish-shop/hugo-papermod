@@ -6,7 +6,7 @@
 </head>
 
 <body 
-    style="background-image: https://s.cn.bing.net/th?id=OHR.MongoliaHorses_EN-CN1100663328_768x1366.webp&qlt=50"
+  
 class="
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
 {{- print "list" -}}
@@ -20,6 +20,8 @@ class="
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+
+    <div id="img_cont" class="img_cont" style="background-image: url(&quot;https://s.cn.bing.net/th?id=OHR.MongoliaHorses_EN-CN1100663328_768x1366.webp&amp;qlt=50&quot;); opacity: 0.933485; display: block;"><div class="shaders"><div class="topLeft"></div><div class="topRight"></div><div class="bottom"></div></div></div>
 </body>
 
 </html>
