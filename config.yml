@@ -100,7 +100,7 @@ params:
     title: (〃'▽'〃)
     subtitle:
     # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
-    imageUrl: "img/Q.gif"
+    imageUrl: "https://www.sulvblog.cn/img/Q.gif"
     imageTitle:
     imageWidth: 150
     imageHeight: 150
