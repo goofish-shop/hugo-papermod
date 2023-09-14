@@ -5,7 +5,9 @@
     {{- partial "head.html" . }}
 </head>
 
-<body class="
+<body 
+    style="background-image: https://s.cn.bing.net/th?id=OHR.MongoliaHorses_EN-CN1100663328_768x1366.webp&qlt=50"
+class="
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
 {{- print "list" -}}
 {{- end -}}
