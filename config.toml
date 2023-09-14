@@ -1,7 +1,7 @@
 baseURL = "https://goofish-shop.github.io/hugo-huey"
 languageCode = "en-us"
 title = "Put a site title here"
-theme = "huey"
+theme = "sulv-hugo-papermod"
 canonifyurls = true
 
 [params]
