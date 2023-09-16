@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://goofish-shop.github.io/hugo-papermod/docs/go/</loc>
+  </url><url>
+    <loc>https://goofish-shop.github.io/hugo-papermod/post/about/</loc>
+  </url><url>
+    <loc>https://goofish-shop.github.io/hugo-papermod/</loc>
+  </url><url>
+    <loc>https://goofish-shop.github.io/hugo-papermod/categories/</loc>
+  </url><url>
+    <loc>https://goofish-shop.github.io/hugo-papermod/docs/</loc>
+  </url><url>
+    <loc>https://goofish-shop.github.io/hugo-papermod/post/</loc>
+  </url><url>
+    <loc>https://goofish-shop.github.io/hugo-papermod/series/</loc>
+  </url><url>
+    <loc>https://goofish-shop.github.io/hugo-papermod/tags/</loc>
+  </url>
+</urlset>
